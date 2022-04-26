@@ -210,3 +210,59 @@ const pets = [
       imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
     }
   ];
+
+  const app = document.querySelector("#app");
+
+ /* pets.forEach((dogs) => {
+    console.log(dogs);
+  });*/
+
+
+/*pets.forEach((items, index) => {
+  items.id = index + 1;
+});
+
+console.log(pets);*/
+
+
+//card
+let domstring = "";
+
+for (const dogs of pets) {
+  
+  domstring += `<div class="card">
+  <header class="card-header">${dogs.name}</header>
+  <img class="image" src="${dogs.imageUrl}">
+  <div class="card-body">
+    <h6 class="card-text">${dogs.color}</h6>
+    <p class="card-text">${dogs.specialSkill}</p>
+  </div>
+  <div class="card-footer footer-for-${dogs.type}">${dogs.type}</div>
+  </div>`
+}
+
+app.innerHTML = domstring;
+
+//filter buttons
+function filterButtons(c){
+  var x, i;
+  x = document.getElementsByClassName("box");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    removeclass(x[i], "")
+  }
+}
+
+
+//clicking button
+
+
+
+const startApp = () => {
+  filterButtons()
+  updateDom()
+  eventListeners()
+
+}
+
+startApp();
