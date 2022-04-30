@@ -11,7 +11,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
       type: "dino",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg"
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7gFTwWnpsh5Higt49cnrPzVV2XaealA-GVBZswahODo679UBc_AIi0qAfvSuKOBLCU0&usqp=CAU"
     },
     {
       name: "Whiskers",
@@ -53,7 +53,7 @@ const pets = [
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
       type: "dino",
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg"
+      imageUrl: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F09%2F10%2Ft-rex-2000.jpg&q=60"
     },
     {
       name: "Sassy",
@@ -74,7 +74,7 @@ const pets = [
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
       type: "dino",
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600"
+      imageUrl: "https://cdn.pixabay.com/photo/2021/03/05/22/44/dinosaur-6072475__340.png"
     },
     {
       name: "Buster",
@@ -109,21 +109,21 @@ const pets = [
       color: "Brown",
       specialSkill: "Drives at a safe rate of speed in snow or rain.",
       type: "dino",
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg"
+      imageUrl: "https://cdn.cnn.com/cnnnext/dam/assets/190828152336-07-western-us-dinosaur-road-trip-super-169.jpg"
     },
     {
       name: "Muffin",
       color: "Yellow",
       specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg"
+      imageUrl: "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/08/thumbs/800x531/142774.jpg"
     },
     {
       name: "Salem",
       color: "Brown",
       specialSkill: "Proficient in air guitar",
       type: "dino",
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg"
+      imageUrl: "https://images.unsplash.com/photo-1606856110002-d0991ce78250?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
     },
     {
       name: "Callie",
@@ -137,21 +137,21 @@ const pets = [
       color: "Black",
       specialSkill: "Uses litter box at appropriate hours.",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
+      imageUrl: "https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop"
     },
     {
       name: "Miss kitty",
       color: "Red",
       specialSkill: "Owns a Nintendo Power Glove.",
       type: "dino",
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
+      imageUrl: "https://www.pe.com/wp-content/uploads/2021/02/RPE-L-VDAYDINO-01-WP-1.jpg"
     },
     {
       name: "Snuggles",
       color: "Orange",
       specialSkill: "Is comfortable with jokes about his receding hairline.",
       type: "cat",
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
+      imageUrl: "https://styles.redditmedia.com/t5_2r5i1/styles/communityIcon_x4lqmqzu1hi81.jpg"
     },
     {
       name: "Buddy",
@@ -165,14 +165,14 @@ const pets = [
       color: "Brown",
       specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
       type: "dog",
-      imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
+      imageUrl: "https://i0.wp.com/petsidi.com/wp-content/uploads/2018/07/black-pomeranian-price.jpg?w=680&ssl=1"
     },
     {
       name: "Salem",
       color: "Red",
       specialSkill: "Knows the words to 4 rap songs.",
       type: "cat",
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg"
+      imageUrl: "https://149366108.v2.pressablecdn.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-19-at-8.32.11-AM.png"
     },
     {
       name: "Bubba",
@@ -207,62 +207,178 @@ const pets = [
       color: "Red",
       specialSkill: "Doesn’t get weirded out by the word “moist.”",
       type: "dino",
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
+      imageUrl: "https://images.immediate.co.uk/production/volatile/sites/4/2020/12/dino-80bbd77.jpg?quality=90&resize=768,574"
     }
   ];
 
-  const app = document.querySelector("#app");
-
- /* pets.forEach((dogs) => {
-    console.log(dogs);
+ /*pets.forEach((animal) => {
+    console.log(animal);
   });*/
 
 
-/*pets.forEach((items, index) => {
-  items.id = index + 1;
+pets.forEach(function(animal, index, array){
+  animal.id = index + 1;
 });
 
-console.log(pets);*/
+//console.log(pets);
+
+//renderToDom
+const renderToDom = (divId, textToRender) => {
+  const selectedElement = document.querySelector(divId)
+  selectedElement.innerHTML = textToRender;
+};
 
 
 //card
-let domstring = "";
-
-for (const dogs of pets) {
-  
-  domstring += `<div class="card">
-  <header class="card-header">${dogs.name}</header>
-  <img class="image" src="${dogs.imageUrl}">
-  <div class="card-body">
-    <h6 class="card-text">${dogs.color}</h6>
-    <p class="card-text">${dogs.specialSkill}</p>
+const petsOnDom = (array) => {
+  let domString = "";
+  for (const animal of array) {
+    domString += `
+    <div class="card">
+    <header class="card-header">${animal.name}</header>
+    <img class="image" src="${animal.imageUrl}">
+    <div class="card-body">
+      <h6 class="card-text">${animal.color}</h6>
+      <p class="card-text">${animal.specialSkill}</p>
+    </div>
+   <div class="card-footer footer-for-${animal.type}">${animal.type}</div>
+   <button type="button" id="delete-pet--${animal.id}">Delete</button>
   </div>
-  <div class="card-footer footer-for-${dogs.type}">${dogs.type}</div>
-  </div>`
+  `;
 }
+renderToDom('#cardContainer', domString);
+};
 
-app.innerHTML = domstring;
+
 
 //filter buttons
-function filterButtons(c){
-  var x, i;
-  x = document.getElementsByClassName("box");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    removeclass(x[i], "")
+const filterButtons = () => {
+  let domString = "";
+  domString =
+    `<button id="cat" type="button" class="btn btn-primary">Cat</button>
+    <button id="dog" type="button" class="btn btn-primary">Dog</button>
+    <button id="dino" type="button" class="btn btn-primary">Dino</button>
+    <button id="all" type="button" class="btn btn-primary">All</button>`;
+  renderToDom("#filterContainer", domString)
+};
+
+
+
+
+//petModal
+const petModal = () => {
+  const domString = `<!-- Button trigger modal -->
+  <button type="button" class="btn-add-pet" data-bs-toggle="modal" data-bs-target="#add-pet">
+  Add Pet
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="add-pet" tabindex="-1" aria-labelledby="add-pet" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-md-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Pet</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modal-body">
+      
+        <form>
+        <div class="form-floating mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder="Animal Id" id="animalId" aria-label="animal id" required>
+          <label for="animalId">Pet's name</label>
+        </div>
+         <div class="form-floating mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder="imageURL" id="imageUrl" aria-label="imageUrl" required>
+          <label for="animalId">ImageURL</label>
+        </div>
+    
+        <div class="form-floating mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder="Color" id="color" aria-label="color" required>
+          <label for="title">Color</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder="specialSkill" id="specialSkill" aria-label="specialSkill" required>
+          <label for="title">Special Skill</label>
+        </div>
+        <div class="form-floating mb-3">
+          <select class="form-select form-control-lg" id="type" aria-label="type" required>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="dino">Dino</option>
+          </select>
+          <label for="category">Type</label>
+        </div>
+    
+    <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+    </form> 
+      
+    </div>
+    </div>
+    </div>
+  </div>`;
+renderToDom('#createContainer', domString);
+};
+
+
+
+//Event listeners
+function eventListeners() {
+  let domString = "";
+  document.querySelector('#filterContainer').addEventListener('click', (e) => {
+    if (e.target.id === 'all') {
+      petsOnDom(pets);
+    }else if (e.target.id === "dog") {
+      const dog = pets.filter((taco) => taco.type === e.target.id);
+      domString = dog;
+      petsOnDom(dog);
+    }else if (e.target.id === "cat") {
+      const cat = pets.filter((taco) => taco.type === e.target.id);
+      domString = cat;
+      petsOnDom(cat);
+    }else if (e.target.id === "dino") {
+      const dino = pets.filter((taco) => taco.type === e.target.id);
+      domString = dino;
+      petsOnDom(dino);
+    }
   }
-}
+  );
 
+//Add new pet button
+  const form = document.querySelector('form');
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    newPetObject = {
+      name: document.querySelector("#animalId").value,
+      color: document.querySelector("#color").value,
+      specialSkill: document.querySelector("#specialSkill").value,
+      type: document.querySelector("#type").value,
+      imageUrl: document.querySelector("#imageUrl").value,
+    },
+  pets.push(newPetObject);
+  petsOnDom(pets);
 
-//clicking button
+  form.reset()
 
+  });
 
+//Delete button
+  document.querySelector('#cardContainer').addEventListener('click', (e) => {  
+    if(e.target.id.includes('delete')) {
+      const [method, id] = e.target.id.split("--");
+      const index = pets.findIndex(pet => pet.id === parseInt(id));
+      pets.splice(index, 1);
+      console.log("Delete Button Pressed")
+      petsOnDom(pets);
+    };
+  });
 
-const startApp = () => {
-  filterButtons()
-  updateDom()
-  eventListeners()
+};
 
-}
+//start up
+function startApp() {
+  filterButtons();
+  petModal();
+  petsOnDom(pets);
+  eventListeners();
+};
 
 startApp();
